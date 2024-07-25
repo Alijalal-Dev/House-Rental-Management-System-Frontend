@@ -1,0 +1,51 @@
+/* UserDashboard specific CSS */
+.container {
+    padding-top: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #1b5e20; /* Dark green text color */
+  }
+  
+  .card {
+ /* Light green background */
+    border: 1px solid #1b5e20; /* Dark green border */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-weight: bold;
+    color: #256529; /* Dark green text color */
+    font-size: x-large;
+  }
+  
+  .card-text {
+    color: #388e3c; /* Medium green text color */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 10px 15px;
+  }
+  
+  /* Hover effect on cards */
+  .card:hover {
+    box-shadow: 0 4px 6px rgba(27, 94, 32, 0.2), 0 8px 12px rgba(27, 94, 32, 0.2);
+    transform: translateY(-2px);
+  }
+  .book{
+    font-weight: bolder;
+    color: black;
+  }
+
+  /* CustomCard.css */
+.card-img-top {
+  height: 200px; /* Set the desired height for the image */
+  object-fit: cover; /* Maintain the aspect ratio and cover the entire space */
+}

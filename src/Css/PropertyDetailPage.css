@@ -1,0 +1,63 @@
+/* PropertyDetailPage.css */
+.property-detail-container {
+    margin-top: 40px;
+    box-shadow: #1eb20ba6;
+    position: relative;
+    left: 300px;
+    
+  }
+  
+  .property-detail-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .property-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .property-card .card-img-top {
+    object-fit: cover;
+    height: 300px;
+  }
+  
+  .property-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #45a049;
+  }
+  
+  .property-card .card-text {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .property-card .card-body {
+    padding: 20px;
+  }
+  
+  .property-card .btn {
+    background-color: #1eb20ba6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .property-card .btn:hover {
+    background-color: #45a049;
+  }
+  .color{
+    color: #000000;
+    font-weight: bolder;
+  }
+  /* Add any other custom styles as needed */
+  

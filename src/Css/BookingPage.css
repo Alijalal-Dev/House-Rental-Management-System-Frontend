@@ -1,0 +1,64 @@
+
+/* BookingPage specific CSS */
+.booking-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Change the height to fit the whole viewport height */
+    margin: 0;
+    width: 90vw;
+    position: relative;
+    top: 100px;
+    right: 30px;
+    bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.5); /* Use an rgba color with alpha (transparency) */
+    padding: 20px; /* Only set padding once */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 12px rgba(0, 0, 0, 0.1); /* Apply a subtle box-shadow */
+    backdrop-filter: blur(5px); /* For a glass-like blur effect (works on some browsers) */
+  }
+  
+  
+  .booking-form {
+    background-color: #d9f7e7; /* Light green background */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    right: 100px;
+  }
+  
+  .booking-form h2 {
+    color: #1b5e20; /* Dark green text color */
+  }
+  
+  .booking-form label {
+    color: #1b5e20; /* Dark green label text color */
+  }
+  
+  .booking-form .form-control {
+    border: 1px solid #1b5e20; /* Dark green border */
+  }
+  
+  .booking-form .form-control:focus {
+    border-color: #1b5e20; /* Dark green border on focus */
+    box-shadow: none;
+  }
+  
+  .booking-form .btn-success {
+    background-color: #1b5e20; /* Dark green button background */
+    border-color: #1b5e20; /* Dark green button border */
+  }
+  
+  .booking-form .btn-success:hover {
+    background-color: #388e3c; /* Dark green button background on hover */
+    border-color: #388e3c; /* Dark green button border on hover */
+  }
+  
+  /* Reduce space between columns (adjust as needed) */
+  .booking-page-container .col-md-6 {
+    padding: 20px; /* Modify this value to control the gap */
+  }
+  .image{
+   position: relative;
+   left: 30px;
+  }

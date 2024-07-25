@@ -1,0 +1,28 @@
+/* App.css */
+
+/* Apply styles to the video background */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Add any other CSS styles you want for the landing page */
+.landing-page {
+  /* Example styles for centering content on the landing page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.landing-page-content {
+  /* Example styles for the content on the landing page */
+  text-align: center;
+}
+
+/* Add any other CSS styles for other components in the App */

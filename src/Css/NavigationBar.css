@@ -1,0 +1,157 @@
+/* NavigationBar.css */
+.custom-navbar {
+    background: linear-gradient(to right, #292929, #1c1c1c); /* Dark gradient background */
+  }
+  
+  .custom-navbar .navbar-brand {
+    /* Add styles for the logo or adjust the padding if using an image */
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .custom-navbar .nav-link {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s, background-color 0.3s;
+    margin-right: 15px; /* Add margin-right to create spaces between the links */
+  }
+  
+  .custom-navbar .nav-link:hover {
+    /* Hover effect for the navigation links */
+    background-color: #343a40; /* Darker color on hover */
+    border-radius: 0.25rem;
+  }
+  
+  /* Add any other custom styles as needed */
+/* NavigationBar.css */
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: linear-gradient(to right, #006400, #008000); /* Green gradient background */
+    padding: 1rem;
+    height: 60px;
+  }
+  
+  .custom-navbar .navbar-brand {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .custom-navbar .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-navbar .nav-link {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .custom-navbar .nav-link:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #020305;
+    background-color: #fff;
+  }
+  .lastnav:hover{
+    color: #020305;
+    background-color: #fff;
+  }
+  
+  .custom-navbar .nav-link:hover:before {
+    transform: scaleX(1);
+  }
+  
+  /* Add a special animation effect */
+  .custom-navbar .nav-link.special-animation:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4caf50; /* Green color for the animation */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+  
+  .custom-navbar .nav-link.special-animation:hover:before {
+    transform: scaleX(1);
+  }
+  .custom-navbar .navbar-brand .logo {
+    /* Set the desired logo size */
+    width: 100px;
+    height: 60px;
+    /* Add any additional styles for the logo, such as margin, padding, etc. */
+  }    
+ .lastnav{
+    position: relative;
+    left: 500px;
+ }
+ .ml-auto{
+    position: relative;
+    left: 100px;
+ }
+ .special{
+    position: relative;
+    display: inline-block; /* Make the link an inline block to rotate around its center */
+  }
+  
+  .special::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform-origin: bottom;
+    transform: scaleX(0);
+    animation: underlineAnimation 1s infinite;
+  }
+  
+  @keyframes underlineAnimation {
+    0% {
+      transform: scaleX(0);
+    }
+    50% {
+      transform: scaleX(1);
+    }
+    100% {
+      transform: scaleX(0);
+    }
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

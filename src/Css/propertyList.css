@@ -1,0 +1,108 @@
+/* PropertyListingPage.css */
+.property-listing-container {
+    padding: 20px;
+    background-color: #f0f0f0; /* Replace with your desired background color */
+  }
+  
+  .property-listing-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #333; /* Replace with your desired font color */
+  }
+  
+  .property-card {
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the cards */
+  }
+  
+  .property-img-container {
+    height: 200px; /* Set a fixed height for the image container */
+    overflow: hidden;
+  }
+  
+  .property-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills the container without distortion */
+  }
+  
+  /* Add any other custom styles as needed */
+  .view-details-btn {
+    background-color: #4caf50; /* Green color */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  /* propertyList.css */
+.property-listing-container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5); /* Set a translucent white background */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Apply a blur effect to create the glass effect */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    z-index: 1; /* Ensure the content stays above the video */
+  }
+  
+  /* Apply styles to the cards and other elements as needed */
+  .property-card {
+    margin-bottom: 30px;
+  }
+  
+  .property-img-container {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .property-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .property-card .card-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .property-card .card-text {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .view-details-btn {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-btn .icon {
+    margin-right: 5px;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #45a049;
+  }
+  .color{
+    color: #333;
+  }
